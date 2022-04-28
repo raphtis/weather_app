@@ -52,7 +52,7 @@ p {
 .app .search {
   text-align: center;
   padding: 1rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .app input {
@@ -97,7 +97,7 @@ p {
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
   padding: 1rem;
   border-radius: 12px;
   background-color: rgb(170, 75, 75);

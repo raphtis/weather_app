@@ -20,21 +20,21 @@ function App() {
   }
   return (
     <div className="app">
-      
+
+      <div className="container">
       <div className="search">
-      <h1>Weather</h1>
+      <h1 className='title'>Weather</h1>
         <input 
           value={location}
           onChange={event => setLocation(event.target.value)}
           onKeyPress={searchLocation}
-          placeholder='Enter location '
+          placeholder='Search City'
           type="text"
         />
       </div>
-      <div className="container">
         <div className="top">
           <div className="location">
-            <p>{data.name}</p>
+            <p className='city_name'>{data.name}</p>
           </div>
           <div className="temp">
             {data.main ?  <h1>{data.main.temp.toFixed()}°F</h1> : null}
